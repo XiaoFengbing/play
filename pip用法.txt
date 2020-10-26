@@ -1,0 +1,38 @@
+pip --no-cache-dir install gensim==3.8.1 -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+
+
+--no-cache-dir   不考虑缓存下载
+
+3.8.1 执行下载版本
+
+连接 镜像
+
+--trusted-host 信任
+
+
+
+pip list命令 查看所有第三方库的版本
+
+更新pip的版本：
+python -m pip install pip==20.2.4 -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+
+pip --version 查看pip的版本号
+
+pip --no-cache-dir install ltp -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+(出现torch版本错误)
+
+--default-timeout=100 设置延时超时时间
+
+cd 下载目录
+pip install 文件名（需要带着.whl后缀）
+
+https://download.pytorch.org/whl/torch_stable.html
+下载pytorch的whl文件
+
+pip --default-timeout=100 install torch-1.6.0+cpu-cp36-cp36m-win_amd64.whl
+（在whl文件的文件目录下进行）
+然后按照上面的方式下载ltp即可
+
+
+
+
